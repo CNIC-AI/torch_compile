@@ -9,12 +9,9 @@
 #SBATCH -e logs/%j.err.log
 #SBATCH -o logs/%j.log
 
-nvidia-smi
 source ../env.sh
-nvcc -V
-
-source ~/anaconda3/etc/profile.d/conda.sh
-conda activate torch_compile
+# nvidia-smi
+# nvcc -V
 
 #
 python -u main.py
