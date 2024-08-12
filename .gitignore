@@ -1,0 +1,15 @@
+pytorch/
+
+# slurm
+logs/
+*.log
+
+# environment
+install/
+
+# third-party packages, cuda installer, etc.
+*.tar.*
+bazel-*
+cuda_*
+cudnn-*
+gcc-*
